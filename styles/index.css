@@ -1,0 +1,100 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --black-cyan: hsl(179, 100%, 13%);
+
+  --p-clr: hsla(0, 0%, 100%, 0.75);
+  --body-clr: hsl(0, 0%, 95%);
+
+  --f-size: 15px;
+  --card-padding: 3rem;
+
+  font-size: var(--f-size);
+}
+
+body {
+  background-color: var(--body-clr);
+  width: 100vw;
+  min-height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+.orange {
+  background-color: var(--bright-orange);
+  --button-color: var(--bright-orange);
+}
+
+.cyan {
+  background-color: var(--dark-cyan);
+  --button-color: var(--dark-cyan);
+}
+
+.dark-cyan {
+  background-color: var(--black-cyan);
+  --button-color: var(--black-cyan);
+}
+
+.card-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card {
+  max-width: 20rem;
+  min-height: 30rem;
+  padding: var(--card-padding);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.card__title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.3rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  color: var(--body-clr);
+}
+
+.card__button {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+
+  margin-top: auto;
+
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 2rem;
+
+  background-color: var(--body-clr);
+  color: var(--button-color);
+  outline: 0.15rem solid var(--body-clr);
+}
+
+.card__button:hover {
+  color: var(--body-clr);
+  background-color: transparent;
+}
+
+.card__description {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+
+  color: var(--p-clr);
+}
+
+footer {
+  display: none;
+}
