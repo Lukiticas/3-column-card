@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Lukiticas/3-column-card/blob/master/design/desktop-preview.jpg)
 
 ### Links
 
