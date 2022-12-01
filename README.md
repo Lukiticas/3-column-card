@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/3-column-card-with-vanilla-html-and-css-5hG2-u0ZRF)
+- Live Site URL: [https://lukiticas.github.io/3-column-card/](https://lukiticas.github.io/3-column-card/)
 
 ### Built with
 
